@@ -1,0 +1,13 @@
+As you will be able to tell from the URL, this script doesn't generate the
+barcode at all, but instead goes off to the totally useful terryburton.co.uk
+website to get the barcode.  That site has a barcode generator which displays
+the barcode in the web page.  I'm wanting to have a list of barcodes on a
+sheet of paper so that I can order stuff from Tesco using my iPhone and the
+Tesco App which scans barcodes, so I will therefore have a bunch of barcodes
+of regular things that we buy on said bit of paper.  And the easiest way to
+get those barcodes on to a single bit of paper is to generate all the
+barcodes from the barcode code, rather than trying to peel off the barcodes
+from the products themselves.  Hence this script.
+
+Call the script with a 13 digit number, it will then write a PNG file with
+the barcode number to the directory you currently reside in.
